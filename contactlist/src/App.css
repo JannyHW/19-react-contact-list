@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 40%;
+  border: solid 1px #ebebeb;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.myPeeps {
+  padding: 10px;
+  border-bottom: solid 2px #80a448;
+  background: #8eb94f;
+  color: white;
+}
+
+.userList {
+  display: flex;
+  flex-direction: column;
+}
+
+.userList li {
+  list-style: none;
+  border-bottom: 1px solid #ebebeb;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  color: #444444;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.userList a {
+  text-decoration: none;
+}
+
+.userList img {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+/* css for single view page */
+.currentUser {
+  width: 30%;
+  margin: auto;
+  margin-top: 5%;
+  height: 500px;
+  border: solid 1px #d8dadc;
+}
+
+.userImage {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #afce80;
+  position: relative;
+}
+
+.userImage img {
+  border-radius: 50%;
+}
+
+#arrow {
+  position: absolute;
+  left: 15px;
+  top: 1px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: black;
+
+}
+
+.contact {
+  height: 50%;
+  text-align: left;
+}
+
+.contact h5 {
+  padding: 20px;
+  border-bottom: 1px solid #ebebeb;
+}
